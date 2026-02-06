@@ -1,0 +1,646 @@
+/* ========================================
+   CRC Chambers of Law - Responsive Styles
+   Media Queries for Mobile & Tablet
+   ======================================== */
+
+/* ========================================
+   Tablet & Large Mobile (max-width: 1024px)
+   ======================================== */
+
+@media (max-width: 1024px) {
+    :root {
+        --section-padding: 60px;
+    }
+
+    h1 { font-size: 2.2rem; }
+    h2 { font-size: 1.8rem; }
+    h3 { font-size: 1.3rem; }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
+    .team-detailed-card {
+        grid-template-columns: 250px 1fr;
+        gap: 1.5rem;
+    }
+
+    .team-photo-large {
+        height: 300px;
+    }
+}
+
+/* ========================================
+   Tablet (max-width: 768px)
+   ======================================== */
+
+@media (max-width: 768px) {
+    :root {
+        --section-padding: 40px;
+    }
+
+    /* Header & Navigation */
+    .header-content {
+        padding: 0.8rem 0;
+    }
+
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        width: 70%;
+        height: calc(100vh - 70px);
+        background-color: var(--white);
+        flex-direction: column;
+        padding: 2rem;
+        box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+        transition: right 0.3s ease;
+        gap: 0;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-menu li {
+        margin-bottom: 1.5rem;
+    }
+
+    .nav-menu li a {
+        font-size: 1.1rem;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    /* Hero Section */
+    .hero {
+        min-height: 400px;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    /* Page Header */
+    .page-header {
+        padding: 3rem 0 2rem;
+    }
+
+    .page-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .page-header p {
+        font-size: 1rem;
+    }
+
+    /* Practice Areas */
+    .practice-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .practice-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .practice-icon-large {
+        width: 60px;
+        height: 60px;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* Team */
+    .team-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .team-detailed-card {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+    }
+
+    .team-photo-large {
+        height: 300px;
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
+    /* Awards */
+    .awards-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .awards-ranking-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .individual-awards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .firm-awards-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Contact */
+    .contact-info-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .contact-form-wrapper {
+        padding: 2rem;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    .form-actions .btn {
+        width: 100%;
+    }
+
+    .directions-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .practice-contacts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+    }
+
+    /* Layout */
+    .two-column-layout {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .why-choose-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Cookie Notice */
+    .cookie-notice {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+    /* Back to Top */
+    .back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
+    }
+}
+
+/* ========================================
+   Mobile (max-width: 576px)
+   ======================================== */
+
+@media (max-width: 576px) {
+    :root {
+        --section-padding: 30px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Typography */
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.5rem; }
+    h3 { font-size: 1.2rem; }
+    h4 { font-size: 1.1rem; }
+
+    .lead {
+        font-size: 1.1rem;
+    }
+
+    /* Header */
+    .logo h1 {
+        font-size: 1.3rem;
+    }
+
+    .nav-menu {
+        width: 85%;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: 350px;
+        padding: 2rem 0;
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.95rem;
+    }
+
+    /* Section Header */
+    .section-header {
+        margin-bottom: 2rem;
+    }
+
+    .section-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .divider {
+        width: 60px;
+    }
+
+    /* Page Header */
+    .page-header {
+        padding: 2.5rem 0 1.5rem;
+    }
+
+    .page-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .page-header p {
+        font-size: 0.95rem;
+    }
+
+    /* Practice Areas */
+    .practice-card {
+        padding: 1.5rem;
+    }
+
+    .practice-icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 1rem;
+    }
+
+    .practice-detail {
+        padding: 1.5rem;
+    }
+
+    .practice-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .practice-subtitle {
+        font-size: 1rem;
+    }
+
+    .practice-icon-large {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Team */
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-photo {
+        height: 250px;
+    }
+
+    .team-info {
+        padding: 1.2rem;
+    }
+
+    .team-detailed-card {
+        padding: 1.2rem;
+    }
+
+    .team-photo-large {
+        height: 250px;
+    }
+
+    /* Awards */
+    .awards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .award-item {
+        padding: 1.5rem;
+    }
+
+    .ranking-card {
+        padding: 1.5rem;
+    }
+
+    .individual-award {
+        padding: 1.5rem;
+    }
+
+    .firm-award-card {
+        padding: 1.5rem;
+    }
+
+    .award-year {
+        font-size: 1.8rem;
+    }
+
+    .testimonial-card {
+        padding: 1.5rem;
+    }
+
+    .quote-icon {
+        font-size: 3rem;
+    }
+
+    .matter-item {
+        padding: 1.5rem;
+    }
+
+    /* Contact */
+    .contact-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact-form-wrapper {
+        padding: 1.5rem;
+    }
+
+    .form-group label {
+        font-size: 0.95rem;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 0.95rem;
+        padding: 0.7rem;
+    }
+
+    .checkbox-label {
+        font-size: 0.9rem;
+    }
+
+    .map-container iframe {
+        height: 300px;
+    }
+
+    .emergency-number {
+        font-size: 1.5rem;
+    }
+
+    /* Values & Features */
+    .value-card {
+        padding: 1.5rem;
+    }
+
+    .value-icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 1rem;
+    }
+
+    .feature-item {
+        padding: 1.2rem;
+    }
+
+    .info-box {
+        padding: 1.5rem;
+    }
+
+    /* CTA Section */
+    .cta-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .cta-content p {
+        font-size: 1rem;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 2rem 0 1rem;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    /* Modal */
+    .modal-content {
+        padding: 2rem 1.5rem;
+        width: 95%;
+    }
+
+    .modal-content h2 {
+        font-size: 1.5rem;
+    }
+
+    /* Cookie Notice */
+    .cookie-notice {
+        padding: 1rem;
+    }
+
+    .cookie-notice p {
+        font-size: 0.85rem;
+    }
+
+    .btn-cookie {
+        padding: 0.4rem 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    /* Back to Top */
+    .back-to-top {
+        bottom: 15px;
+        right: 15px;
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    /* Associations */
+    .associations-list ul {
+        grid-template-columns: 1fr;
+    }
+
+    .practice-contacts-grid {
+        gap: 1.5rem;
+    }
+
+    .directions-grid {
+        gap: 1.2rem;
+    }
+}
+
+/* ========================================
+   Small Mobile (max-width: 375px)
+   ======================================== */
+
+@media (max-width: 375px) {
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+
+    .hero-title {
+        font-size: 1.6rem;
+    }
+
+    .section-header h2 {
+        font-size: 1.6rem;
+    }
+
+    .page-header h1 {
+        font-size: 1.6rem;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .contact-form-wrapper {
+        padding: 1.2rem;
+    }
+
+    .modal-content {
+        padding: 1.5rem 1rem;
+    }
+}
+
+/* ========================================
+   Print Styles
+   ======================================== */
+
+@media print {
+    .header,
+    .hamburger,
+    .hero,
+    .cta-section,
+    .footer,
+    .back-to-top,
+    .modal,
+    .cookie-notice {
+        display: none !important;
+    }
+
+    body {
+        font-size: 12pt;
+    }
+
+    h1 { font-size: 20pt; }
+    h2 { font-size: 16pt; }
+    h3 { font-size: 14pt; }
+
+    .section {
+        page-break-inside: avoid;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+}
+
+/* ========================================
+   Landscape Orientation Tablets
+   ======================================== */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .hero {
+        min-height: 400px;
+    }
+
+    .nav-menu {
+        gap: 1.5rem;
+    }
+}
+
+/* ========================================
+   High DPI / Retina Displays
+   ======================================== */
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    /* Enhanced rendering for high-DPI screens */
+    body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}

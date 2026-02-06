@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore CRC Chambers' comprehensive legal services including corporate law, litigation, arbitration, banking, real estate, and more.">
+    <title>Practice Areas | CRC Chambers of Law</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>CRC <span>Chambers of Law</span></h1>
+                    </a>
+                </div>
+                <nav id="nav">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="practice-areas.html" class="active">Practice Areas</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="awards.html">Awards</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Practice Areas</h1>
+            <p>Comprehensive legal expertise across diverse disciplines</p>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section">
+        <div class="container">
+            <div class="content-layout">
+                <div class="content-main">
+                    <p class="lead">CRC Chambers of Law offers comprehensive legal services across a broad spectrum of practice areas. Our multidisciplinary approach enables us to provide integrated solutions to complex legal challenges, drawing on expertise from across our firm to serve our clients' diverse needs.</p>
+                    <p>Each practice group at our firm is led by experienced partners and supported by skilled associates who bring deep knowledge and practical experience to every matter. We stay at the forefront of legal developments in our practice areas, ensuring that our clients benefit from current, sophisticated counsel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Practice Areas Grid -->
+    <section class="section alt-bg">
+        <div class="container">
+            <div class="practice-areas-detailed">
+                <!-- Corporate Law -->
+                <div class="practice-detail" id="corporate">
+                    <div class="practice-header">
+                        <div class="practice-icon-large">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                            </svg>
+                        </div>
+                        <div>
+                            <h2>Corporate Law</h2>
+                            <p class="practice-subtitle">Strategic counsel for business success</p>
+                        </div>
+                    </div>
+                    <div class="practice-content">
+                        <p>Our corporate practice provides comprehensive legal support to businesses of all sizes, from startups to established corporations. We advise on the full spectrum of corporate matters, helping clients navigate complex transactions and regulatory requirements.</p>
+                        <h3>Key Services</h3>
+                        <ul class="services-list">
+                            <li>Mergers and Acquisitions</li>
+                            <li>Corporate Governance and Compliance</li>
+                            <li>Company Formation and Structuring</li>
+                            <li>Joint Ventures and Strategic Alliances</li>
+                            <li>Corporate Reorganizations</li>
+                            <li>Securities and Capital Markets</li>
+                            <li>Private Equity and Venture Capital</li>
+                            <li>Shareholder Agreements and Disputes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Commercial Litigation -->
+                <div class="practice-detail" id="litigation">
+                    <div class="practice-header">
+                        <div class="practice-icon-large">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="3" y1="9" x2="21" y2="9"></line>
+                                <line x1="9" y1="21" x2="9" y2="9"></line>
+                            </svg>
+                        </div>
+                        <div>
+                            <h2>Commercial Litigation</h2>
+                            <p class="practice-subtitle">Skilled advocacy in business disputes</p>
+                        </div>
+                    </div>
+                    <div class="practice-content">
+                        <p>Our litigation team represents clients in complex commercial disputes across various forums. We combine aggressive advocacy with strategic thinking to protect our clients' interests and achieve favorable outcomes.</p>
+                        <h3>Key Services</h3>
+                        <ul class="services-list">
+                            <li>Contract Disputes</li>
+                            <li>Shareholder and Partnership Disputes</li>
+                            <li>Breach of Fiduciary Duty Claims</li>
+                            <li>Business Torts and Fraud Litigation</li>
+                            <li>Employment Litigation</li>
+                            <li>Intellectual Property Litigation</li>
+                            <li>Real Estate Disputes</li>
+                            <li>Class Action Defense</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Arbitration & ADR -->
+                <div class="practice-detail" id="arbitration">
+                    <div class="practice-header">
+                        <div class="practice-icon-large">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <div>
+                            <h2>Arbitration & Alternative Dispute Resolution</h2>
+                            <p class="practice-subtitle">Efficient resolution of complex disputes</p>
+                        </div>
+                    </div>
+                    <div class="practice-content">
+                        <p>Our ADR practice offers clients cost-effective and efficient alternatives to traditional litigation. We have extensive experience representing clients in domestic and international arbitration proceedings.</p>
+                        <h3>Key Services</h3>
+                        <ul class="services-list">
+                            <li>Commercial Arbitration</li>
+                            <li>International Arbitration</li>
+                            <li>Mediation Services</li>
+                            <li>Arbitration Clause Drafting</li>
+                            <li>Enforcement of Arbitral Awards</li>
+                            <li>Expert Determination</li>
+                            <li>Negotiation and Settlement</li>
+                            <li>Construction Disputes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Banking & Finance -->
+                <div class="practice-detail" id="banking">
+                    <div class="practice-header">
+                        <div class="practice-icon-large">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="1" x2="12" y2="23"></line>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h2>Banking & Finance</h2>
+                            <p class="practice-subtitle">Sophisticated financial transactions counsel</p>
+                        </div>
+                    </div>
+                    <div class="practice-content">
+                        <p>We advise financial institutions, borrowers, and investors on a wide range of banking and finance transactions. Our team has deep expertise in structured finance, project finance, and regulatory compliance.</p>
+                        <h3>Key Services</h3>
+                        <ul class="services-list">
+                            <li>Project Finance</li>
+                            <li>Corporate Lending</li>
+                            <li>Secured Transactions</li>
+                            <li>Syndicated Loans</li>
+                            <li>Trade Finance</li>
+                            <li>Asset-Based Lending</li>
+                            <li>Banking Regulatory Compliance</li>
+                            <li>Debt Restructuring and Insolvency</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Real Estate & Property Law -->
+                <div class="practice-detail" id="realestate">
+                    <div class="practice-header">
+                        <div class="practice-icon-large">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h2>Real Estate & Property Law</h2>
+                            <p class="practice-subtitle">Comprehensive real estate legal services</p>
+                        </div>
+                    </div>
+                    <div class="practice-content">
+                        <p>Our real estate practice handles all aspects of property law, from acquisitions and dispositions to development projects and leasing. We represent developers, investors, landlords, and tenants in complex real estate matters.</p>
+                        <h3>Key Services</h3>
+                        <ul class="services-list">
+                            <li>Property Acquisitions and Sales</li>
+                            <li>Real Estate Development</li>
+                            <li>Commercial Leasing</li>
+                            <li>Real Estate Finance</li>
+                            <li>Land Use and Zoning</li>
+                            <li>Title Examination and Insurance</li>
+                            <li>Property Dispute Resolution</li>
+                            <li>Construction Contracts</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Intellectual Property -->
+                <div class="practice-detail" id="ip">
+                    <div class="practice-header">
+                        <div class="practice-icon-large">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h2>Intellectual Property</h2>
+                            <p class="practice-subtitle">Protecting innovation and creativity</p>
+                        </div>
+                    </div>
+                    <div class="practice-content">
+                        <p>We help clients protect, exploit, and enforce their intellectual property rights. Our IP practice covers the full spectrum of intellectual property matters, from registration to enforcement.</p>
+                        <h3>Key Services</h3>
+                        <ul class="services-list">
+                            <li>Patent Prosecution and Litigation</li>
+                            <li>Trademark Registration and Protection</li>
+                            <li>Copyright Protection</li>
+                            <li>Trade Secret Protection</li>
+                            <li>IP Licensing and Technology Transfer</li>
+                            <li>Domain Name Disputes</li>
+                            <li>IP Due Diligence</li>
+                            <li>Infringement Claims</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tax Law -->
+                <div class="practice-detail" id="tax">
+                    <div class="practice-header">
+                        <div class="practice-icon-large">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h2>Tax Law</h2>
+                            <p class="practice-subtitle">Strategic tax planning and compliance</p>
+                        </div>
+                    </div>
+                    <div class="practice-content">
+                        <p>Our tax practice provides comprehensive counsel on tax planning, compliance, and controversy matters. We help clients navigate complex tax laws and minimize tax liabilities while ensuring full compliance.</p>
+                        <h3>Key Services</h3>
+                        <ul class="services-list">
+                            <li>Corporate Tax Planning</li>
+                            <li>Tax-Efficient Structuring</li>
+                            <li>Transfer Pricing</li>
+                            <li>International Tax</li>
+                            <li>GST/VAT Advisory</li>
+                            <li>Tax Litigation and Appeals</li>
+                            <li>Tax Due Diligence</li>
+                            <li>Tax Treaty Interpretation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Employment & Labour Law -->
+                <div class="practice-detail" id="employment">
+                    <div class="practice-header">
+                        <div class="practice-icon-large">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h2>Employment & Labour Law</h2>
+                            <p class="practice-subtitle">Workplace legal solutions</p>
+                        </div>
+                    </div>
+                    <div class="practice-content">
+                        <p>We assist employers and employees with all aspects of employment law, from drafting employment contracts to defending against discrimination claims. Our practice helps clients maintain compliant and productive workplaces.</p>
+                        <h3>Key Services</h3>
+                        <ul class="services-list">
+                            <li>Employment Contracts and Policies</li>
+                            <li>Workplace Investigations</li>
+                            <li>Discrimination and Harassment Claims</li>
+                            <li>Wage and Hour Compliance</li>
+                            <li>Employee Terminations</li>
+                            <li>Non-Compete and Confidentiality Agreements</li>
+                            <li>Labor Relations</li>
+                            <li>Executive Compensation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Regulatory Compliance -->
+                <div class="practice-detail" id="regulatory">
+                    <div class="practice-header">
+                        <div class="practice-icon-large">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                            </svg>
+                        </div>
+                        <div>
+                            <h2>Regulatory Compliance</h2>
+                            <p class="practice-subtitle">Navigating complex regulatory landscapes</p>
+                        </div>
+                    </div>
+                    <div class="practice-content">
+                        <p>Our regulatory practice helps clients understand and comply with applicable laws and regulations. We provide proactive guidance to minimize regulatory risk and represent clients in enforcement proceedings.</p>
+                        <h3>Key Services</h3>
+                        <ul class="services-list">
+                            <li>Regulatory Compliance Programs</li>
+                            <li>Government Investigations</li>
+                            <li>Licensing and Permits</li>
+                            <li>Environmental Compliance</li>
+                            <li>Data Privacy and Protection</li>
+                            <li>Anti-Corruption Compliance</li>
+                            <li>Industry-Specific Regulation</li>
+                            <li>Regulatory Filings and Reporting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Need Legal Counsel?</h2>
+                <p>Contact us to discuss how our expertise can address your legal needs</p>
+                <a href="contact.html" class="btn btn-primary">Schedule a Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CRC Chambers of Law</h3>
+                    <p>Excellence in Legal Practice</p>
+                    <p class="tagline">Integrity | Expertise | Commitment</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="practice-areas.html">Practice Areas</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="awards.html">Awards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><strong>Address:</strong><br>123 Legal District<br>New Delhi, India 110001</p>
+                    <p><strong>Phone:</strong> +91 11 1234 5678</p>
+                    <p><strong>Email:</strong> info@crcchambers.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Office Hours</h4>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                    <p>Saturday: 10:00 AM - 2:00 PM</p>
+                    <p>Sunday: Closed</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 CRC Chambers of Law. All rights reserved.</p>
+                <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="js/main.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
